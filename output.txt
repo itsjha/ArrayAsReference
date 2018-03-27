@@ -1,12 +1,12 @@
-**************Contents / Address of first Array**************
+************** first Array**************
 20
 30
-**************Contents / Address of second Array**************
+************** second Array**************
 20
 30
-**************Contents / Address of third Array**************
+************** third Array**************
 10
 0
-**************Contents / Address of fourth Array**************
+************** fourth Array**************
 10
 0
