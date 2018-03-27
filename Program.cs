@@ -9,13 +9,6 @@ namespace ArrayCopy
     {
         static void Main(string[] args)
         {
-            int firstNumber, secondNumber;
-            firstNumber = 10;
-            secondNumber = firstNumber;
-            firstNumber = 20;
-            //Console.WriteLine("First Number is : "+ firstNumber + "\nSecond Number is : " + secondNumber);
-
-　
             int[] firstArray = new int[2];
             firstArray[0] = 10;
             int[] secondArray = firstArray;
@@ -27,22 +20,22 @@ namespace ArrayCopy
             firstArray[1] = 30;
 
             
-            Console.WriteLine("\n\n**************Contents / Address of first Array**************");
+            Console.WriteLine("\n\n************** first Array**************");
             for (int index = 0; index < firstArray.Length; index++)
             {
                 Console.WriteLine(firstArray[index]);
             }
-            Console.WriteLine("\n\n**************Contents / Address of second Array**************");
+            Console.WriteLine("\n\n************** second Array**************");
             for (int index = 0; index < secondArray.Length; index++)
             {
                 Console.WriteLine(secondArray[index]);
             }
-            Console.WriteLine("\n\n**************Contents / Address of third Array**************");
+            Console.WriteLine("\n\n************** third Array**************");
             for (int index = 0; index < thirdArray.Length; index++)
             {
                 Console.WriteLine(thirdArray[index]);
             }
-            Console.WriteLine("\n\n**************Contents / Address of fourth Array**************");
+            Console.WriteLine("\n\n************** fourth Array**************");
             for (int index = 0; index < fourthArray.Length; index++)
             {
                 Console.WriteLine(fourthArray[index]);
