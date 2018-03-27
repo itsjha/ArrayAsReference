@@ -11,9 +11,13 @@ namespace ArrayCopy
         {
             int[] firstArray = new int[2];
             firstArray[0] = 10;
+           
+            //Second Array
             int[] secondArray = firstArray;
+            //Third Array
             int[] thirdArray = new int[2];
             firstArray.CopyTo(thirdArray, 0);
+            //Fourth Array
             int[] fourthArray = (int[]) firstArray.Clone();
             
             firstArray[0] = 20;
